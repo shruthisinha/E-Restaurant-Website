@@ -23,6 +23,7 @@ Mycart page allows the user to see all the food optins that has been chosen by t
 
 ## Drawbacks/ loopholes
 
-this website does not have a database therefore the login and signup page 
+this website does not have a database therefore the login and signup page does not work.
+
 the Contact page is disabled.
 
