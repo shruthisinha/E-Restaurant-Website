@@ -13,11 +13,11 @@ This project was made using HTML, CSS, JavaScript and PHP and deployed on Azure 
 
 Home page- this page gives details about the restaurant.
 
-The Menu page has list of food options available for the user to scroll through, this age allows the user to add their desired food to their cart.
+The Menu page has list of food options available for the user to scroll through, this page allows the user to add their desired food to their cart.
 
 The gallery page has pictures of the restaurants dishes which is uploaded on this website by the restaurant owner or workers.
 
-The Login button leads the user to sign in and sign up page. this page was made in intent to allow the user to login and order food onlie or allow a new user to create a new account.
+The Login button leads the user to sign in and sign up page. this page was made in intent to allow the user to login and order food online or allow a new user to create a new account.
 
 Mycart page allows the user to see all the food options that has been chosen by the user to add to their cart. this page has options provided for the user to increase or decrease the quantity of the food and it shows the total amount of payment that is to be done.
 
