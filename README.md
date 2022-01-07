@@ -1,5 +1,5 @@
 # E-Restaurant-website
-https://gokulrestaurant.azurewebsites.net
+https://gokulfoods.azurewebsites.net
 
 ## About the Project 
 
