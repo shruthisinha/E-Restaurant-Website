@@ -42,6 +42,8 @@ nav{
 
 .mid-sec{
   background-image: url('../images/kwanzaa.png');
+  width: 80%;
+   margin: 0px auto;
 }
 
 #hamburger-toggle{ display: none; }
@@ -229,6 +231,103 @@ nav{
   padding: 60px;
   font-size: 30px;
 }
+/*------------------media query chat section----------*/
+
+@media(max-width:564px){
+  .chat-sec{
+    margin-top: 100px;
+    position: relative;
+    background-image: url("../images/chat-sec.png");
+    height: 400px;
+  }
+  
+   .chat-sec img{
+     margin: 0px auto;
+     height: 320px;
+     padding: 20px;
+   }
+   .chat-sec h1{
+    text-align: center;
+    justify-content: space-around;
+    color: #523d29;
+    font-size: 24px;
+    padding: 10px;
+  
+   }
+   .chat-sec p{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+     padding: 10px;
+     font-size: 16px;
+   }
+  
+}
+
+/*------------------------veg sec---------*/
+
+@media(max-width:564px){
+  .veg-sec{
+    position: relative;
+    margin-top: 40px;
+    background-image: url("../images/vegback.png");
+    height: 400px;
+  }
+  .veg-sec img{
+    
+   margin: 0px auto;
+    height: 320px;
+    max-width: fit-content;
+    padding: 20px;
+  }
+  .abt h1{
+   
+    text-align: center;
+    justify-content: space-around;
+    color: #523d29;
+    font-size: 24px;
+    padding: 10px;
+  }
+  .abt p{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+     padding: 10px;
+     font-size: 16px;
+  }
+}
+/*--------------------Dessert section*/
+
+@media(max-width:564px){
+  .des-sec{
+    position: relative;
+    margin-top: 100px;
+   background-image: url("../images/vegback.png");
+   
+ }
+ .des-sec img{
+  
+   height: 320px;
+   max-width: fit-content;
+   padding: 15px;
+ }
+ .dessert h1{
+   text-align: center;
+   text-align: left;
+   justify-content: space-around;
+   color: #523d29;
+   font-size: 24px;
+   padding: 10px;
+ }
+ .dessert p{
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+   padding: 10px;
+   font-size: 16px;
+ }
+}
+
 .container {
     width: 95%;
     max-width: 1440px;
