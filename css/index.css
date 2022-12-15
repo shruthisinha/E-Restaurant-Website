@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+  background-image: url('../images/kwanzaa.png');
+}
 
 nav{
     padding: 20px 25px;
@@ -41,7 +44,6 @@ nav{
 }
 
 .mid-sec{
-  background-image: url('../images/kwanzaa.png');
   width: 80%;
    margin: 0px auto;
 }
@@ -161,7 +163,6 @@ nav{
 
 .veg-sec{
   margin-top: 40px;
-  background-image: url("../images/vegback.png");
   height: 400px;
 }
 .veg-sec img{
@@ -176,12 +177,16 @@ nav{
   text-align: left;
   justify-content: space-around;
   color: #523d29;
-  font-size: 40px;
+  font-size: 34px;
   padding: 15px;
 }
 .abt p{
-  padding: 60px;
-  font-size: 30px;
+  padding: 10px 50px 50px 50px;
+  width: 80%;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
 }
 .chat-sec{
   background-image: url("../images/chat-sec.png");
@@ -190,7 +195,7 @@ nav{
 
  .chat-sec img{
    float: left;
-   height: 450px;
+   height: 380px;
    padding: 20px;
  }
  .chat-sec h1{
@@ -198,18 +203,20 @@ nav{
   text-align: left;
   justify-content: space-around;
   color: #523d29;
-  font-size: 40px;
+  font-size: 34px;
   padding: 15px;
 
  }
  .chat-sec p{
-   font-size: 30px;
-   padding: 60px;
+  padding: 10px 50px 50px 50px;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
  }
 
  .des-sec{
    margin-top: 40px;
-  background-image: url("../images/vegback.png");
   height: 400px;
 }
 .des-sec img{
@@ -221,15 +228,20 @@ nav{
 }
 .dessert h1{
   display: flex;
-  text-align: left;
+  text-align: center;
   justify-content: space-around;
   color: #523d29;
-  font-size: 40px;
+  font-size: 34px;
   padding: 15px;
 }
 .dessert p{
-  padding: 60px;
-  font-size: 30px;
+  padding: 10px 50px 50px 50px;
+  width: 60%;
+  margin-left: 100px;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
 }
 /*------------------media query chat section----------*/
 
@@ -270,7 +282,6 @@ nav{
   .veg-sec{
     position: relative;
     margin-top: 40px;
-    background-image: url("../images/vegback.png");
     height: 400px;
   }
   .veg-sec img{
@@ -302,7 +313,6 @@ nav{
   .des-sec{
     position: relative;
     margin-top: 100px;
-   background-image: url("../images/vegback.png");
    
  }
  .des-sec img{
@@ -550,6 +560,7 @@ ul{
 }
 @media(max-width:564px){
     .footer-col{
+      margin: 10px ;
         width:100%;
         margin-bottom: 30px;
     }
